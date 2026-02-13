@@ -22,13 +22,13 @@ PASTA_SAIDAS = Path(
 ARQ_TEMPLATE = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\Template_Laudo.xlsx"
 ARQ_ENDERECOS = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\DADOS_COMPLETO.xlsx"
 
-NOME_ARQUIVO_SUST_MESTRE = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\ENTRADA_TESTE\F2024136-SUST.xlsx"
+NOME_ARQUIVO_SUST_MESTRE = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\ENTRADA_TESTE\F202255-SUST.xlsx"
 
 # Abas do arquivo -UNICO (0-based)
 SHEET_IDX_ABA1 = 1
 SHEET_IDX_ABA2 = 2
 SHEET_IDX_ABA3 = 3
-HEADER_ROW_INDEX = 7  # linha 8
+HEADER_ROW_INDEX = 0  # linha 8
 
 # Template
 SHEET_INDEX_TEMPLATE = 0

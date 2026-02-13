@@ -3,14 +3,15 @@ import os
 from pathlib import Path
 import pandas as pd
 
+# %%
 # ===================== CONFIGURAÇÕES =====================
 
-BASE_DIR = r"\\Agroserver\processos\04_XLSX_OP_Formatado\05_Projetos_2023\OS_140"
+BASE_DIR = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\04_XLSX_OP_Formatado\04_Projetos_2022\OS_55"
 
-OUTPUT_DIR_SUST = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\TESTE"
-OUTPUT_DIR_COMBINED = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\TESTE"
+OUTPUT_DIR_SUST = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\ENTRADA_TESTE"
+OUTPUT_DIR_COMBINED = r"C:\Users\migue\OneDrive - Agrorobotica Fotonica Em Certificacoes Agroambientais\_Fertilidade\ENTRADAS\ENTRADA_TESTE"
 
-OUTPUT_NAME_SUST = "F2025{codigo_os}-SUST.xlsx"
+OUTPUT_NAME_SUST = "F2022{codigo_os}-SUST.xlsx"
 OUTPUT_NAME_COMBINED = "Fazenda_{codigo_os}_amostras_simples.xlsx"
 
 SHEET_NAME_SUST = "SUST_ALL"
